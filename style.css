@@ -48,7 +48,7 @@ img {
 }
 .nav a {
     text-decoration: none;
-    color: #e8e7e7;
+    color: #b3b3b3;
     border-bottom: 1px solid transparent;
 }
 .nav ul a:hover {
@@ -76,12 +76,13 @@ img {
 }
 .nav input::placeholder {
     color: #e8e7e7;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .button {
+    display: inline-block;
     text-decoration: none;
-    color: #e8e7e7;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     padding: 8px 16px;
@@ -93,7 +94,7 @@ img {
     transition: width 0.5s ease;
 }
 .header {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("icon/watch.jpg");
     background-repeat: no-repeat;
     background-position: top 20px right -100px;
@@ -123,7 +124,7 @@ img {
     width: 50%;
     font-size: 25px;
     margin-top: 0;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .menu {
@@ -152,6 +153,9 @@ img {
     height: 4px;
     display: inline-block;
     margin-top: 25px;
+}
+.box-1:last-child p {
+    margin-bottom: 30px;
 }
 .link {
     color: red;
@@ -228,7 +232,7 @@ img {
 }
 
 .last .container {
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -249,12 +253,4 @@ img {
     padding-left: 20px;
     margin-right: 60px;
 }
-/*.last .container .warning a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    padding: 6px 14px;
-    background-color: red;
-    border: 3px solid red;
-    border-radius: 5px;
-}*/
+
