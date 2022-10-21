@@ -139,9 +139,9 @@ img {
 
 .box-1 {
     width: 360px;
-    padding: 5px 25px;
+    padding: 0 25px;
     font-size: 15px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 
 .box-1 h3 {
